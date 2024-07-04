@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automated Dating App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffe6f0;
+            color: #333;
+        }
+        header {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        header nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 10px;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px 0;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+        .buttons a {
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            margin-right: 10px;
+            border-radius: 5px;
+        }
+        .buttons a:last-child {
+            background-color: #fff;
+            color: #333;
+            border: 1px solid #333;
+        }
+        .features, .how-it-works, .cta {
+            margin: 50px 0;
+            text-align: center;
+        }
+        .features .feature, .how-it-works .step {
+            margin: 20px 0;
+        }
+        .cta a {
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <nav>
+            <div class="logo">Logo</div>
+            <div>
+                <a href="#">Discover Love</a>
+                <a href="#">Find Matches</a>
+                <a href="#">Chat Now</a>
+                <a href="#">More Options</a>
+                <a href="#">Sign Up</a>
+                <a href="#">Log In</a>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<div class="container">
+    <section class="hero">
+        <div>
+            <h1>Automate your dating life with ease</h1>
+            <p>Effortlessly landing more dates by outsourcing chatting to our AI, fully hands-off.</p>
+            <div class="buttons">
+                <a href="#">Sign Up</a>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+        <div>
+            <img src="your-image-url.png" alt="Hero Image" width="500">
+        </div>
+    </section>
+
+    <section class="features">
+        <h2>Streamline Your Dating Experience with Our App</h2>
+        <p>Save time and increase your dating success with our automated chatting feature. Our app imitates your texting style and texts at a cadence that is guaranteed to give you more dates.</p>
+        <div class="feature">
+            <h3>Save Time</h3>
+            <p>Automatically chat with potential matches, setting up dates effortlessly.</p>
+        </div>
+        <div class="feature">
+            <h3>Increase Success</h3>
+            <p>Increase your chances of going on a date and meeting a special person.</p>
+        </div>
+        <div class="buttons">
+            <a href="#">Learn More</a>
+            <a href="#">Sign Up</a>
+        </div>
+    </section>
+
+    <section class="how-it-works">
+        <h2>How It Works: A Step-by-Step Guide</h2>
+        <p>Setting up the app is quick and easy. Follow these steps to start getting more dates:</p>
+        <div class="step">
+            <h3>Step 1: Log in to Your Profile</h3>
+            <p>Rest assured that all your data is secure and private.</p>
+        </div>
+        <div class="step">
+            <h3>Step 2: Customize Your Chatting Style</h3>
+            <p>Personalize your texting style to match your personality.</p>
+        </div>
+        <div class="step">
+            <h3>Step 3: Let the App Chat for You</h3>
+            <p>Let the app chat for you while you sit back and relax, securing dates effortlessly.</p>
+        </div>
+        <div class="buttons">
+            <a href="#">Get Started</a>
+            <a href="#">Learn More</a>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>Find Your Perfect Match Today</h2>
+        <p>Discover a new way to meet and connect with potential dates.</p>
+        <a href="#">Sign Up</a>
+        <a href="#">Learn More</a>
+    </section>
+</div>
+
+</body>
+</html>
